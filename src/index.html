@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+</head>
+
+<body>
+    <main class="form">
+        <h1>NASA studios</h1>
+        <h2>Sistema de cifrado césar</h2>
+        <h3>Sólo personal autorizado</h3>
+        <form id="cipher" autocomplete="off">
+            <input id="text-original" spellcheck="false" placeholder="Ingrese el texto" type="text">
+        </form>
+        <div id="form1">
+            <input id="rango" type="range" value="1" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+            <output>1</output>
+        </div>
+        <div>
+            <button id="cifrar" class="button">Cifrar</button>
+            <button id="descifrar" class="button">Descifrar</button>
+        </div>
+        <form id="form2" autocomplete="off">
+            <input id="text-result" spellcheck="false" readonly="false" type="text">
+        </form>
+    </main>
     <script src="index.js" type="module"></script>
-  </body>
+</body>
+
 </html>
