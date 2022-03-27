@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-//Función que permite al usuario cambiar el texto a mayúsculas
+//Función para cambiar texto a mayúsculas
 function mayus() {
     document.getElementById("text-original").addEventListener("keyup", function() {
         this.value = this.value.toUpperCase();
