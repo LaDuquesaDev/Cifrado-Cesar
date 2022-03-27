@@ -38,6 +38,10 @@ h2 {
     font-size: 18px;
 }
 
+h2 a {
+    color: white;
+}
+
 h3 {
     margin: 10px;
     margin-top: 2px;
