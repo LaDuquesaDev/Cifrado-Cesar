@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -8,24 +8,27 @@
 </head>
 
 <body>
-    <main class="form">
+    <main class="box">
         <h1>NASA studios</h1>
         <h2>Sistema de cifrado césar</h2>
         <h3>Sólo personal autorizado</h3>
-        <form id="cipher" autocomplete="off">
+        <form id="origin-text" autocomplete="off">
             <input id="text-original" placeholder="Ingrese el texto" type="text">
         </form>
-        <div id="form1">
+        <div id="barra">
             <input id="rango" type="range" value="1" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
             <output>1</output>
         </div>
-        <div>
+        <div class="buttons">
             <button id="cifrar" class="button">Cifrar</button>
             <button id="descifrar" class="button">Descifrar</button>
         </div>
-        <form id="form2" autocomplete="off">
+        <form id="new-text" autocomplete="off">
             <input id="text-result" spellcheck="false" readonly="false" type="text">
         </form>
+        <div class="buttons">
+            <button id="limpiar" class="button">Limpiar</button>
+        </div>
     </main>
     <script src="index.js" type="module"></script>
 </body>

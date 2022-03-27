@@ -28,17 +28,13 @@ document.getElementById("descifrar").addEventListener("click", function() {
     true
 );
 
-console.log(cipher);
+//Botón Limpiar
+function clean() {
+    document.getElementById("limpiar").addEventListener("click", function() {
+        document.getElementById("origin-text").reset();
+        document.getElementById("new-text").reset();
+    });
+}
+clean()
 
-
-
-/*
-<div id="limpiar">
-    <button id="reset" class="button">Limpiar</button>
-</div>
-
-document.getElementById("reset").addEventListener("click", function() {
-    let clean = document.getElementById("text-original, text-result") = "";
-    document.querySelector(clean);
-});
-*/
+//console.log(cipher);
