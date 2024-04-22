@@ -7,6 +7,7 @@
 * [3. Objetivos de los Usuarios](#3-objetivos-de-los-usuarios)
 * [4. Resolución de problemas](#4-resolución-de-problemas)
 * [5. Objetivos de aprendizaje cumplidos](#5-objetivos-de-aprendizaje-cumplidos)
+* [6. Diseño UX/UI](#6-diseño-ux-ui)
 
 ***
 
@@ -195,3 +196,10 @@ Toda información usada en el sistema de encriptación de la NASA, será manejad
 - [x] **Crear prototipos para obtener feedback e iterar**
 
 - [x] **Aplicar los principios de diseño visual**
+
+## 6. Diseño UX/UI
+
+<div align="center">
+ <img style="max-width: "100%"; height: auto;" src="https://imgur.com/GvLdpX1.png" alt="Who I am">
+</div>
+
